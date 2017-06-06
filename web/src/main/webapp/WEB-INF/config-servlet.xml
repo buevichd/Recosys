@@ -11,6 +11,7 @@
         http://www.springframework.org/schema/context/spring-context.xsd">
 
     <import resource="classpath:config.xml"/>
+    <import resource="security-config.xml"/>
     <context:component-scan base-package="com.recosys"/>
     <mvc:annotation-driven/>
     <mvc:default-servlet-handler/>

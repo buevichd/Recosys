@@ -19,7 +19,6 @@ public class SvdDataEvaluator {
     private SimpleMatrix userMatrix;
     private SimpleMatrix productMatrix;
 
-    @NotNull
     public void evaluateData(SvdData dataHolder) {
         init(dataHolder);
         evaluate();
